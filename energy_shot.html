@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Energy Shot - Rulebook</title>
+<link rel="stylesheet" href="energy_shot.css">
+</head>
+<body>
+
+<h1>Energy Shot - Rulebook</h1>
+<p><em>Fast, strategic, chaotic fun with Energy cards!</em></p>
+
+<h2>1. Game Setup</h2>
+<ul>
+  <li>Use a custom deck of Energy cards, including:
+    <ul>
+      <li>9 cards each of the 9 basic Energy types (Grass, Fire, Water, Lightning, Psychic, Fighting, Metal, Fairy, Darkness)</li>
+      <li>At least 2 Dragon Energy cards (special win condition)</li>
+      <li>Rocket's Darkness Energy card(s) (special effect + Dark Energy)</li>
+    </ul>
+  </li>
+  <li>Shuffle the deck well.</li>
+  <li>Each player draws 3 cards for their starting hand.</li>
+  <li>Each player has their own Energy Zone (area in front of them to place one Energy card per turn).</li>
+</ul>
+
+<h2>2. Card Zones</h2>
+<ul>
+  <li><strong>Hand:</strong> Your private cards.</li>
+  <li><strong>Energy Zone:</strong> Where you can place one Energy card per turn from your hand. Up to 5 different Energy types allowed in the Energy Zone.</li>
+</ul>
+
+<h2>3. Turn Structure</h2>
+<ol>
+  <li>Draw 1 card from the deck.</li>
+  <li>Choose one action to perform:
+    <ul>
+      <li>Play an Energy card to your Energy Zone (only one card per turn).</li>
+      <li>Play a Combo from your hand (discard the necessary Energy cards and perform its effect).</li>
+    </ul>
+  </li>
+  <li>If you have more than 5 cards in hand at the end of your turn, discard down to 5.</li>
+</ol>
+
+<h2>4. Energy Zone Card Effects</h2>
+<ul>
+    <li><strong>Dark: </strong>You and the person counterclockwise take a sip!</li>
+    <li><strong>Fairy: </strong>Reverse any rule until your next turn!</li>
+    <li><strong>Fire: </strong>Sip and burn someone else to take 2 sips!</li>
+    <li><strong>Fighting: </strong>Throw dice with anyone. Whichever throws lower loses and sips! (in case of no dice, Rock Paper Scizzors also works here!)</li>
+    <li><strong>Electric: </strong>Zap the entire table. Everyone sips!</li>
+    <li><strong>Grass: </strong>You've been healed. Skip your next drink!</li>
+    <li><strong>Psychic: </strong>Choose anyone to throw dice with. Same number, everyone else drinks. Different number, both of you drink! (in case of no dice, the person clockwise to you shares a sip with you)</li>
+    <li><strong>Metal: </strong>You're built like Cbum, give 3 drinks to anyone! (can be multiple people)</li>
+    <li><strong>Water: </strong>Hydrate. Drink some water you thirsty bitch!</li>
+</ul>
+
+<h2>5. Combos</h2>
+<p>To play a combo, discard the required Energy cards from your hand and apply the effect.</p>
+<table>
+  <thead>
+    <tr>
+      <th>Combo Name</th>
+      <th>Cards Used (from Hand)</th>
+      <th>Effect</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Tsunami</td><td>Water + Fighting</td><td>Discard all Fire cards from the Energy Zone. All affected players drink a sip.</td></tr>
+    <tr><td>Wildfire</td><td>Fire + Grass</td><td>Discard all Water cards from the Energy Zone. All affected players drink a sip.</td></tr>
+    <tr><td>Overload</td><td>Electric + Fire</td><td>Caster discards 1 Energy Zone card; all other players discard 2 Energy Zone cards. Others drink a sip.</td></tr>
+    <tr><td>Growth Surge</td><td>Grass + Water</td><td>Draw 1 card, then place 1 card from hand into the Energy Zone.</td></tr>
+    <tr><td>Earthquake</td><td>Metal + Fighting</td><td>All players discard their entire hand and draw 2 new cards.</td></tr>
+    <tr><td>Mind Flux</td><td>Psychic + Fairy</td><td>Choose a player who must swap their entire hand and Energy Zone. That player drinks 2 sips.</td></tr>
+    <tr><td>Shadow Veil</td><td>Dark + Psychic</td><td>Choose a player who discards all cards of one Energy type from their Energy Zone. That player drinks 3 sips.</td></tr>
+  </tbody>
+</table>
+
+<h2>6. Special Energy Cards</h2>
+<h3>Rocket's Darkness Energy</h3>
+<ul>
+  <li>When played, immediately steal 2 cards from other players' hands:
+    <ul>
+      <li>Either 2 cards from one player, or 1 card each from two players.</li>
+    </ul>
+  </li>
+  <li>Stolen cards go into your hand.</li>
+  <li>Players who lose cards this way drink 2 sips each.</li>
+  <li>After the effect, Rocket's Darkness Energy remains in your Energy Zone as a Dark Energy card.</li>
+</ul>
+    <img src="images/R-Energy.png" alt="Rockets Darkness Energy" />
+<h3>Dragon Energy (2 cards total)</h3>
+<ul>
+  <li>If a player controls both Dragon Energy cards in their Energy Zone at the end of their turn, they win immediately.</li>
+  <li>Dragon Energy cards cannot be discarded by combos but can be stolen by Rocket's Darkness Energy.</li>
+</ul>
+
+<h2>7. Win Condition</h2>
+<ul>
+  <li>First player to have 3 of the same Energy type in their Energy Zone wins!</li>
+  <li>OR if a player controls both Dragon Energy cards in their Energy Zone at the end of their turn, they win immediately.</li>
+</ul>
+
+<h2>8. Additional Rules</h2>
+<ul>
+  <li>Energy Zone limits: Max 3 cards per Energy type, max 15 cards total.</li>
+  <li>Energy Zone: Only 1 card can be placed there per turn.</li>
+  <li>Combos and special effects only affect cards in the Energy Zone unless otherwise stated.</li>
+  <li>Hands can have max 5 cards; discard excess at turn end.</li>
+</ul>
+
+<p style="text-align:center; font-weight:bold; margin-top: 2em;">Have fun! Drink responsibly and enjoy the chaos! 🥳</p>
+
+    <button id="modeToggle" aria-label="Toggle light/dark mode">☀️</button>
+    <script src="darkmode.js"></script>
+
+</body>
+</html>

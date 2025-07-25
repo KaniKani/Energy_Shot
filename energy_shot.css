@@ -1,0 +1,65 @@
+/* Dark mode (default) */
+body {
+  font-family: Arial, sans-serif;
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+  background-color: #222222;
+  color: #eee;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Light mode */
+body.light-mode {
+  font-family: Arial, sans-serif;
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  color: #222;
+  transition: background-color 0.3s, color 0.3s;
+}
+h1, h2 {
+    text-align: center;
+}
+
+h2 {
+    margin-top:2em;
+}
+
+pre {
+background: #f0f0f0;
+padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 6px;
+    text-align: left;
+}
+
+#modeToggle {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1000;
+  user-select: none;
+}
+
+img {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+}
